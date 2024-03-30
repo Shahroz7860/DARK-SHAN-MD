@@ -24,7 +24,7 @@ let result = await download(text)
             url: icon,
         }, 
         caption: `
-        \n ✧ *DARK SHAN MD  DOWNLOADER*
+        \n ✧ *APK downloader by Hamza*
         \n━━━━━━━━━━━━━━━━━━
         
         \n 📚 *ᴀᴘᴘ ɴᴀᴍᴇ:* ${getname}
@@ -41,13 +41,13 @@ let result = await download(text)
         },
         mimetype: "application/vnd.android.package-archive",
         fileName: getname,
-        caption: `👑 *DARKSHAN-MD V1*`,
+        caption: `*Powered by Hamza*`,
     }, {
         quoted: citel,
     });
   } catch (err) {
     console.error(err);
-    citel.reply(` *❌ An error occurred while processing your request. Please try again later.* ${err}`);
+    citel.reply(` *❌Uffff Bro, An error occurred while processing your request. Please try again later.* ${err}`);
   }
 })
   //---------------------------------------------------------------------------//
